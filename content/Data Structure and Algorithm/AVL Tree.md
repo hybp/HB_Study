@@ -4,7 +4,7 @@
 코드 임플멘테이션은 안나올듯
 
 그래도 딱 하나 기억하고 싶다면
-```Python
+```python
 def _update_height(self, node):
 	if node:
 		node.height = 1 + max(self._get_height(node.left), self._get_height(node.right))
@@ -14,7 +14,7 @@ Rotation은 그냥 주변 노드들 확인해서 connection 바꿔주는거
 연결 바꿔주고 update_height 돌려주면 됨
 
 
-```Python
+```python
 class TreeNode:
     def __init__(self, key):
         self.key = key

@@ -1,4 +1,4 @@
-```Python
+```python
 def binary_search(arr, target, start, end):
 	# if start > end, finish search. Not found.
     while start <= end:

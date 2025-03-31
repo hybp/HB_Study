@@ -2,7 +2,7 @@ Basically: Queue + visited set
 BFS DFS 차이는 - 큐에서 꺼내는 순서
 ### BFS (FIFO, 먼저 들어간거 꺼내기)
 *Shortest distance*
-```Python
+```python
 from collections import deque
 
 def bfs(graph, start):
@@ -18,7 +18,7 @@ def bfs(graph, start):
 ```
 
 ### BFS with Travel Record (최단 "루트" 리턴 해야 하는 경우)
-```Python
+```python
 from collections import deque
 
 def bfs_shortest_path(graph, start, end):
@@ -43,7 +43,7 @@ def bfs_shortest_path(graph, start, end):
 
 ### DFS (LIFO, 마지막거 꺼내기)
 *어차피 전체 순환 해야 할 때*
-```Python
+```python
 def dfs_iterative(graph, start):
     visited = set()
     stack = [start]
@@ -58,7 +58,7 @@ def dfs_iterative(graph, start):
 ```
 
 ### Dijkstra (BFS + Weight + graph to store distance record)
-```Python
+```python
 import heapq
 
 def dijkstra(graph, start):

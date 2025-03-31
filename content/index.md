@@ -3,20 +3,34 @@ title: Welcome to HB_Study
 author: "@HB"
 last modified date: 03/29/2025
 ---
-
-This is HB's second brain for his Back End and AI Studies.
-
-The author speaks Korean and English, so the notes are written in English and Korean (Mostly Korean).
+<br>
 
 
-The Big Categories
+This is my second brain for back end and AI programming knowledge. <br>If you click the graph icon in "Graph View" on the right, you can check the connection between related notes.
 
-[[백엔드]]
+I'm using the Spring Boot framework for its convenience in developing enterprise application and its philosophy.
 
-[[AI 개발]]
+My ultimate goal is to build technology that improves people's lives.
 
-[[블록체인]]
+*The notes are written in English and Korean (Mostly Korean).
+\
+<br>
+<br>
 
-[[알고리즘]]
 
-Current coverage: 96% (65/68)
+The Big Categories:
+
+[[Back End]] 
+
+[[AI Studies]] 
+
+[[블록체인 (Coming Soon)]]
+
+[[Data Structure and Algorithm]]
+
+[[Others]]
+
+\
+\
+\
+*The notes are taken using [[https://obsidian.md/|Obsidian]] and was published using [[https://docs.github.com/en/actions/writing-workflows/about-workflows|GitHub Workflows]].*

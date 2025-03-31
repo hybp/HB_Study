@@ -1,6 +1,6 @@
 
 ## Counter
-```Python
+```python
 from collections import Counter
 
 # Set substraction but considers **counts**

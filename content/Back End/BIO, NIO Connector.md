@@ -15,4 +15,4 @@ NIO 는 I/O가 아닌 Http11NioProtocol tkdyd
 - Socket들을 캐시로 들고 있다가 해당 socket의 data에 대한 처리가 가능한 순간에 thread 할당
 
 
-참고: [[Connection 란]]
+참고: [[Connection 이란]]
