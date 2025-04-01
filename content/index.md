@@ -24,7 +24,7 @@ The Big Categories:
 
 [[AI Studies]] 
 
-[[블록체인 (Coming Soon)]]
+[[Blockchain and Discrete Math|블록체인 (Coming Soon)]]
 
 [[Data Structure and Algorithm]]
 

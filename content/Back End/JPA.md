@@ -96,3 +96,6 @@ public class Haha {
 	@Entity, @Id, @Column 등 annotation으로 각종 configuration 설정
 
 [[Persistence (영속성)]]
+
+
+[[JPA Entity Relationships]]
