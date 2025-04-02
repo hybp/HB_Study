@@ -1,5 +1,5 @@
 ---
-title: Welcome to HB_Study
+title: Welcome to HB's Dev Notes
 author: "@HB"
 last modified date: 03/29/2025
 ---
