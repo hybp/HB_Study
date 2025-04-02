@@ -28,4 +28,4 @@ Non-deterministic algorithm : 분신술을 사용해서 탐험할 수 있음 (�
 왜 Deterministic 인지 아닌지를 구분 할 필요가 있는가? Deterministic의 장점이 무엇인가?
 -> All computers are "Deterministic Turing Machines" that solve deterministic problems for sure.
 
-[[The P - NP Problem]]
+[[The P-NP Problem]]

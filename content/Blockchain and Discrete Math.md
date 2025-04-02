@@ -12,6 +12,6 @@ Discrete Math<br>
 
 [[P, NP, NP-complete, NP-hard Relationship]]
 
-[[The P - NP Problem]]
+[[The P-NP Problem]]
 
 

@@ -46,4 +46,4 @@ NP-hard are problems that are at least as hard as hardest NP problems
 >있다. -> $O(2^{p(n)})$ 인 문제들이 여기에 포함되는데 EXPTIME problem 이라고 한다.
 
 
-[[The P - NP Problem]]
+[[The P-NP Problem]]
