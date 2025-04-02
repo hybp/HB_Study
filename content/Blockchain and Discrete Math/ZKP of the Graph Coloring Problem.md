@@ -1,6 +1,6 @@
 ### Scaling : The Generality of the Graph Coloring Problem
 
-Many logical problems with constraints, like sudoku, can be transformed into the map coloring problem.
+Many logical problems with constraints, like sudoku, can be transformed into the map coloring problem. In mathematical term, this is called "reduction".
 ![[Screenshot 2025-04-01 at 3.08.05 PM.png]]
 
 *\*In fact, any NP problems can be reduced to the map coloring problem (map coloring is NP-complete)
