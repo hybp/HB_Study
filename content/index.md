@@ -8,11 +8,11 @@ last modified date: 03/29/2025
 
 This is my second brain for back end and AI programming knowledge. <br>If you click the graph icon in "Graph View" on the right, you can check the connection between related notes.
 
-I'm using the Spring Boot framework for its convenience in developing enterprise application and its philosophy.
+To give you a brief background of me, I was born in Korea, went to middle school and high school in Shanghai, and then I studied undergrad in Hong Kong.
 
 My ultimate goal is to build technology that improves people's lives.
 
-*The notes are written in English and Korean (Mostly Korean).
+*\*The notes are written in both English and Korean (Mostly Korean) depending on which language better conveys my thoughts.
 \
 <br>
 <br>

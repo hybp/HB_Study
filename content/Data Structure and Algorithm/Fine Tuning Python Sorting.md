@@ -1,14 +1,18 @@
 Before diving in, we need to understand what we are actually doing when we are "sorting".
 
-
 We need to be able to do 2 things in order to sort.
 1. Compare 2 elements (sort uses the < (```__lt__()```) operator)
 2. Move elements
 
-Sorting numbers or texts is not very hard. However, you might have specific interests as to how you want the data to be sorted. To suit your interests, Python provides useful features to customize sorting in different ways.
+Sorting numbers or texts is simple. However, you might have specific interests as to how you want the data to be sorted. To suit your interests, Python provides useful features to customize sorting in different ways.
 (Especially #1, #2: not really)
 
-### Sorting with Custom Key
+
+One more fact worth keeping in mind while designing the comparison function is that
+- If you can compare 2 elements, you can sort the whole list (poset)
+- if all neighboring elements are sorted, the list is sorted
+
+## Method 1: Sorting with Custom Key
 you might want to specify the "key" for comparing 2 objects. Python's sort supports this function.
 
 ```python
@@ -41,12 +45,23 @@ you might want to specify the "key" for comparing 2 objects. Python's sort suppo
 >>> sorted(student_objects, key=attrgetter('age'))   # same thing
 ```
 
-### Sorting with Comparison Functions
+## Method 2: Sorting with Comparison Functions
 You can also define custom "comparison" functions to compare 2 objects.
 
+## Lambda function
+```python
+data = [("Alice", 25), ("Bob", 30), ("Charlie", 25)]
+
+sorted_data = sorted(data, key=lambda x: (x[1], x[0]))  # Sort by age, then by name
+```
+
+
+## cmp_to_key() function
 Until Python2, there was ```cmp``` parameter to do this, but it was removed in Python3.
 
-Instead, you can use ```functools.cmp_to_key```
+For Python 3, you can use ```functools.cmp_to_key```.
+
+What this does is, it converts positive, 0, negative function value to ordering of values.
 
 Predefined function
 ```python
@@ -62,15 +77,9 @@ def compare(x, y):
 sorted_numbers = sorted(numbers, key=cmp_to_key(compare))
 ```
 
-Lambda function
-```python
-data = [("Alice", 25), ("Bob", 30), ("Charlie", 25)]
 
-sorted_data = sorted(data, key=lambda x: (x[1], x[0]))  # Sort by age, then by name
-```
-
-### Redefining the Comparison Operator
-Instead of using above methods provided by Python's sort, you may also define the comparison operator ```__lt__()``` (<)\
+## Method 3: Redefining the Comparison Operator
+Instead of using above methods provided by Python's sort, you may also define the comparison operator ```__lt__()``` (<)
 
 ```python
 class Person:
@@ -82,4 +91,18 @@ class Person:
         return self.age < other.age
 
 people.sort() 
+```
+
+
+## Some examples
+### Sorting by the largest concatenation of integers
+```python
+def compare(x, y):
+    # Compare the strings of their numerical value and return positive if "yx" greater than "xy"
+    return (int(y + x) - int(x + y))
+
+numbers = list(map(str, numbers))
+    
+numbers.sort(key=cmp_to_key(compare))
+
 ```
