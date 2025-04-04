@@ -1,6 +1,13 @@
+[[Basic Cheat Sheet]]
+
 [[Hash]]
+
 [[Heapq]]
+
 [[Binary Search]]
+
 [[BFS, DFS, Djkstra]]
+
 [[AVL Tree]]
+
 [[Python's Built-in Sorting]]
