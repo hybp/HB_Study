@@ -138,3 +138,4 @@ public class BeanTest {
 }
 ```
 
+[[Spring Bean vs Static Singleton]]
